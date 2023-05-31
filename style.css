@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#login-container, #shopping-cart {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+#shopping-cart {
+  background-color: #fff;
+}
+
+#login-btn {
+  margin-top: 10px;
+}
+
+#item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#item-list li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#total-cost {
+  font-weight: bold;
+}
