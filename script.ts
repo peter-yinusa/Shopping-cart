@@ -42,14 +42,14 @@ class ShoppingCart {
 }
 
 // Create a user and login
-const user = User.register("John", "john@example.com", "password");
-const loggedUser = user.login("John", "password");
+const user = User.register("Peter", "peter@cart.com", "password");
+const loggedUser = user.login("Peter", "password");
 
 // Create items with names, prices, and image URLs
-const bag = new Item("Bag", 50, "bag.jpg");
-const clothes = new Item("Clothes", 100, "clothes.jpg");
-const car = new Item("Car", 50000, "car.jpg");
-const house = new Item("House", 500000, "house.jpg");
+const bag = new Item("Bag", 30000, "bag.jpeg");
+const clothes = new Item("Clothes", 42000, "clothes.jpeg");
+const car = new Item("Car", 10000000, "car.jpeg");
+const house = new Item("House", 50000000, "house.jpeg");
 
 // Create a shopping cart
 const cart = new ShoppingCart();
